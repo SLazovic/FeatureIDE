@@ -28,6 +28,7 @@
 		<module>plugins/de.ovgu.featureide.core.antenna</module>
 		<module>plugins/de.ovgu.featureide.core.aspectj</module>
 		<module>plugins/de.ovgu.featureide.core.conversion.ahead-featurehouse</module>
+		<module>plugins/de.ovgu.featureide.core.Bytecode</module>
 		<module>plugins/de.ovgu.featureide.core.featurecpp</module>
 		<module>plugins/de.ovgu.featureide.core.featurehouse</module>
 		<module>plugins/de.ovgu.featureide.core.framework</module>

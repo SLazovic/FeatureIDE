@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bytecodes
+Bundle-SymbolicName: de.ovgu.featureide.core.bytecode;singleton:=true
+Require-Bundle: de.ovgu.featureide.core,
+ de.ovgu.featureide.fm.core,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.ovgu.featureide.core.bytecode.activator.BytecodesCorePlugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.ovgu.featureide.core.bytecode,
+ de.ovgu.featureide.core.bytecode.activator
+Bundle-ClassPath: libs/asm-6.1.jar,
+ libs/asm-tree-6.0.jar,
+ .

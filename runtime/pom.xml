@@ -263,6 +263,12 @@
                                             <transitive>false</transitive>
 											<source>true</source>
                                         </artifact>
+										
+										<artifact>
+                                            <id>de.ovgu.featureide:de.ovgu.featureide.core.bytecode:${project.parent.version}</id>
+                                            <transitive>false</transitive>
+											<source>true</source>
+                                        </artifact>
 
                                         <artifact>
                                             <id>de.ovgu.featureide:de.ovgu.featureide.core.framework:${project.parent.version}</id>
