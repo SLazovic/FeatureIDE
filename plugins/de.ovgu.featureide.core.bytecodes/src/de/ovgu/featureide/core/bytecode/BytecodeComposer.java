@@ -17,6 +17,10 @@ import de.ovgu.featureide.fm.core.base.impl.ConfigFormatManager;
 import de.ovgu.featureide.fm.core.configuration.Configuration;
 import de.ovgu.featureide.fm.core.io.manager.SimpleFileHandler;
 
+/**
+ * Bytecode composer
+ */
+
 public class BytecodeComposer extends ComposerExtensionClass{
 
 	@Override
@@ -32,6 +36,12 @@ public class BytecodeComposer extends ComposerExtensionClass{
 		}
 		createFiles(featureProject.getBuildFolder().getRawLocation().makeAbsolute().toFile().getAbsolutePath(), list);
 	}
+	
+	/**
+	 * Method that creates bytecode files from a map in a given directory
+	 * @param dir is the path to use to create bytecode files
+	 * @param map contains bytecode ClassNodes
+	 */
 	
 	public void createFiles(String dir, Map<String, ClassNode> map){
 		for(String key:map.keySet()){
